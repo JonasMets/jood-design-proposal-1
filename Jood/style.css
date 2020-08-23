@@ -6,7 +6,7 @@
   src: url(/FontsFree-Net-URW-DIN-Arabic-1.ttf);
 }
 
-/*  här lägger vi de färger som ska användas  #3096FE */
+/*  här lägger vi de färger som ska användas */
 :root{
   --primaryColor:#1487FD;
   --primaryColorDarker:#007efb;
@@ -20,24 +20,7 @@
 
   --lightPink: #FDF3D7;
 
-  --black:#000;
-  --black-faded:#1b1b1b;
-  --darkGrey: #333;
-  /* --lightGray: #cfcfcf; */
-  --lightGray: #F5F5F5;
-  --white: #fff;
-  --boneWhite:rgb(250, 249, 248);
-  --logoBgColor:#d31919;
-  --boxShadowPrimaryD: rgba(137, 48, 255, .5);
-  --boxShadowGrey: rgba(68, 68,68, .5);
 }
-
-/* reset av margin och padding, val av box-sizing */
-/* *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
 
 .font-roboto{
   font-family:'Roboto', sans-serif !important;
@@ -47,9 +30,7 @@
 body {
     font-family:'Roboto', sans-serif;
     font-size: 16px;
-    /* background: var(--boneWhite); */
     background: var(--white);
-    /* color: var(--black-faded); */
 }
 
 .logo-img{
@@ -60,14 +41,11 @@ body {
 
 .active{
   color: var(--mellowYellow) !important;
-  /* border-bottom: 1px solid var(--mellowYellow) !important; */
-  
 }
 
 .active:after{
   content: ""; 
     display: block; 
-    /* margin: 0 auto; */
     width: 20%; 
     padding-top: 2px; 
     border-bottom: 2px solid var(--mellowYellow) !important;
@@ -77,7 +55,6 @@ body {
 
 .text-mediumGrey{
   color: var(--mediumGrey);
-  /* font-size: 16px; */
   font-weight: normal;
 }
 
@@ -94,7 +71,6 @@ body {
 .my-button2{
   width: 232px;
   height: 80px;
-
 }
 
 .color-mellowYellow{
@@ -106,23 +82,9 @@ body {
 }
 
 
-/* #myheader { */
-  /* border: 1px dotted black; */
-  /* background: url('/images/Rectangle1914.png') no-repeat center center/cover; */
-  /* background: url('/images/header-bg.png') no-repeat  ; */
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
-  /* background-position: 55% 95%; */
-
-/* } */
-
 .myheader-bg{
   background: url('/images/header-bg.png') no-repeat  ;
-  /* background-position: 35% 95%; */
-  /* background-size: cover; */
   width: 100%;
-  /* height: 100vh; */
-  /* background-position:-200px -900px; */
   background-position:35% 95%;
   
 }
@@ -133,11 +95,9 @@ body {
 }
 
 .about-us-bg{
-  
   background: url('/images/bg.png') no-repeat center;
   width: 100%;
   height: 100%;
-  /* background-position: -0px ; */
   margin: 0px 5px 0px 5px;
 }
 
@@ -164,9 +124,7 @@ body {
 .iphonex3mod{
   position: absolute;
   top: -160px;
-  /* left: 60%; */
-/* z-index: 1; */
-margin-top: 80px;
+  margin-top: 80px;
 }
 
 .input-field-bg{
@@ -183,7 +141,6 @@ margin-top: 80px;
 }
 
 #Footer-main{
-  /* no-repeat */
   background: url('/images/footer-bg.png') no-repeat center/cover ;
   width: 100%;
   height: 150%;
@@ -195,12 +152,10 @@ margin-top: 80px;
 }
 
 /* media query */
-
 @media screen and (min-width: 992px) {
   .active:after{
     content: ""; 
       display: block; 
-      /* margin: 0 auto; */
       width: 60%; 
       padding-top: 2px; 
       border-bottom: 2px solid var(--mellowYellow) !important;
